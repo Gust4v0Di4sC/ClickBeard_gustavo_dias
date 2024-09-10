@@ -222,6 +222,10 @@
 }
 
 @media  screen and (max-width:768px) {
+    .container-admin table thead th:nth-child(3),
+  .container-admin table tbody td:nth-child(3) {
+    display: none; /* Esconde a terceira coluna, por exemplo */
+  }
     .container-schedule ul{
         width: 300px;
     }
@@ -232,13 +236,43 @@
         font-weight: bold;
         font-size: 16px;
     }
+    .container-admin table,
+  .container-admin thead,
+  .container-admin tbody,
+  .container-admin th,
+  .container-admin td,
+  .container-admin tr {
+    display: block;
+  }
+
+  .container-admin tr {
+    margin-bottom: 15px;
+  }
+
+  .container-admin td {
+    padding-left: 50%;
+    text-align: left;
+    position: relative;
+  }
+
+  .container-admin td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 45%;
+    padding-left: 10px;
+    font-weight: bold;
+  }
 }
 
 
 @media  screen and (max-width:440px) {
+    
     .container-schedule ul{
         width: 200px;
-      
     }
 
+    .container-schedule table{
+        width: 150px;
+    }
 }

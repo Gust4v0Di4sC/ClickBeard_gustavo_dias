@@ -88,23 +88,34 @@ body{
 
 .navbar img{
     max-width: 100%;
-    margin-right: 128px;
+
 }
-.navbar{
-    padding: 0px; 
+.navbar{ 
     background-image: linear-gradient(180deg, rgba(8,12,23,1) 0%, rgba(10,14,26,0.79) 36%, rgba(11, 16, 28, 0.274) 66%, rgba(13, 18, 30, 0) 100%);
     width: 100%;
     height: 90px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items:center;
+}
+
+.navbar .logo {
+    margin-left: 0; 
+    padding-left: 128px;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-right: 128px;
 }
 
 .navbar a{
     text-decoration: none;
     color: #fff;
-    
     transition: .5s;
 }
 
@@ -124,12 +135,21 @@ body{
     color: #F0B35B;
 }
 
-
+@media screen and (max-width: 968px) {
+    body{
+        background-size: auto;
+    }
+}
 
 @media screen and (max-width:768px){
     body{
         background-size: auto;
     }
+    .navbar .logo{
+        padding: 0px;
+        margin: 0px auto;
+    }
+   
 }
 
 @media screen and (max-width:440px){
@@ -137,6 +157,11 @@ body{
         background-size: auto;
         background-position: center;
     }
+    .navbar .logo{
+        padding: 0px;
+        margin: 0px auto;
+    }
+
     .login-container{
         width: 300px;
         height: 350px;
