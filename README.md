@@ -5,5 +5,5 @@ Teste para o estagio
 
 Para iniciar 
 - entre na pasta barbearia-agendamento
-- digite no terminal npm run dev
+- digite no terminal **npm run dev**
 
