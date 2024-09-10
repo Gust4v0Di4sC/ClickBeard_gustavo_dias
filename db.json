@@ -1,0 +1,181 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@example.com",
+      "type": "admin",
+      "password": "senha123"
+    },
+    {
+      "id": "2",
+      "name": "Maria Souza",
+      "email": "maria@example.com",
+      "type": "cliente",
+      "password": "senha456"
+    },
+    {
+      "id": "4ad7",
+      "name": "Ze Galudo",
+      "email": "galudo@gmail.com",
+      "password": "galudex123"
+    },
+    {
+      "id": "c210",
+      "name": "zecatatu",
+      "email": "tatu@example.com",
+      "password": "tatu123"
+    },
+    {
+      "id": "d2c6",
+      "name": "zecatatu",
+      "email": "tatu@example.com",
+      "password": "tatu123"
+    },
+    {
+      "id": "32d4",
+      "name": "zecatatu",
+      "email": "tatu@example.com",
+      "password": "tatu123"
+    }
+  ],
+  "specialties": [
+    {
+      "id": "1",
+      "name": "Corte de Tesoura"
+    },
+    {
+      "id": "2",
+      "name": "Barba"
+    },
+    {
+      "id": "3",
+      "name": "Sobrancelha"
+    },
+    {
+      "id": "4",
+      "name": "Corte Navalha"
+    }
+  ],
+  "barbers": [
+    {
+      "name": "Carlos Oliveira",
+      "age": 45,
+      "hireDate": "2020-01-11",
+      "specialties": [
+        "corte",
+        "barba",
+        "Corte Navalha",
+        "Sobrancelha"
+      ],
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Ana Santos",
+      "age": 28,
+      "hireDate": "2023-03-20",
+      "specialties": [
+        "corte",
+        "sobrancelha"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "2",
+      "userId": 2,
+      "userName": "Maria Souza",
+      "barberId": 2,
+      "service": "sobrancelha",
+      "date": "2024-09-07",
+      "time": "15:30"
+    },
+    {
+      "id": "660e",
+      "userId": "4325",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-06",
+      "time": "14:00"
+    },
+    {
+      "id": "d3ee",
+      "userId": "4325",
+      "barberName": "1",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-06",
+      "time": "14:00"
+    },
+    {
+      "id": "b1c7",
+      "userId": "a3b1",
+      "barberName": "Carlos Oliveira",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-06",
+      "time": "16:07"
+    },
+    {
+      "id": "19f8",
+      "userId": "d6d1",
+      "userName": "Cliente não identificado",
+      "barberName": "Carlos Oliveira",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-06",
+      "time": "19:22"
+    },
+    {
+      "id": "c554",
+      "userId": "1",
+      "userName": "João Silva",
+      "barberName": "Carlos Oliveira",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-06",
+      "time": "20:33"
+    },
+    {
+      "id": "61f4",
+      "userId": "2",
+      "userName": "Maria Souza",
+      "barberName": "Carlos Oliveira",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-07",
+      "time": "16:17"
+    },
+    {
+      "id": "72f3",
+      "userId": "2",
+      "userName": "Maria Souza",
+      "barberName": "jose Cortador",
+      "barberId": null,
+      "service": "corte",
+      "date": "2024-09-17",
+      "time": "19:53"
+    },
+    {
+      "id": "c3e8",
+      "userId": "2",
+      "userName": "Maria Souza",
+      "barberName": "Ana Santos",
+      "barberId": "2",
+      "service": "corte",
+      "date": "2024-09-07",
+      "time": "20:04"
+    },
+    {
+      "id": "5a40",
+      "userId": "4ad7",
+      "userName": "Ze Galudo",
+      "barberName": "Carlos Oliveira",
+      "barberId": "1",
+      "service": "corte",
+      "date": "2024-09-07",
+      "time": "16:17"
+    }
+  ]
+}

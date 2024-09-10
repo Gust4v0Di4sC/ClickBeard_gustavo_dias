@@ -1,0 +1,244 @@
+.container-admin{
+    padding: 55px;
+    margin: 32px;
+}
+
+.container-admin h2{
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container-admin .button-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 64px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.container-admin .button-add:hover{
+    background-color: transparent;
+    color: #28a745;
+    border:  solid #28a745;
+}
+
+
+.container-admin table{
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+}
+
+.container-admin thead{
+    background-color: #F0B35B;
+    color: #080b16;
+
+    font-size: 1.5rem;
+}
+
+.container-admin tbody{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+
+
+.container-admin table tbody tr td{
+    padding-left: 32px;
+}
+
+.container-admin button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-right: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.container-admin .edit{
+    background-color: rgb(5, 21, 56);
+    color: #fff;
+}
+
+.container-admin .edit:hover{
+    background-color: transparent;
+    border:  solid 2px rgb(5, 21, 56);
+    color: rgb(5, 21, 56);
+}
+
+.container-admin .delete{
+    background-color: rgb(212, 45, 45);
+    color: #fff;
+}
+
+.container-admin .delete:hover{
+    background-color: transparent;
+    border:  solid 2px rgb(212, 45, 45);
+    color: rgb(212, 45, 45);
+}
+
+
+.boxform{
+    background-color: #080B16;
+    width: 620px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+
+.container-admin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.container-admin-form h2 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container-admin-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos do formulário horizontalmente */
+    gap: 15px;
+    width: 100%; /* Define uma largura para o formulário */
+    max-width: 500px; /* Limita a largura máxima do formulário */
+}
+
+.container-admin-form .formgroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Alinha a largura de cada grupo de formulário */
+}
+
+.container-admin-form input {
+    width: 100%; /* Faz com que os inputs ocupem toda a largura do contêiner pai */
+    height: 35px;
+    border-radius: 8px;
+}
+
+.container-admin-form label {
+    color: #fafafa;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.container-admin-form .checkboxgroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0px auto;
+    justify-content: space-between; /* Distribui as checkboxes de forma igual */
+}
+
+
+.container-admin-form .checkboxinput{
+    width: 18px;
+    height: 18px;
+}
+
+.container-admin-form .checkboxlabel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-admin-form button{
+    padding: 16px 128px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #080B16;
+    background-color: #F0B35B;
+    border: none;
+    transition: .5s;
+}
+
+.container-admin-form button:hover{
+    border: 2px solid #F0B35B;
+    color: #F0B35B;
+    background-color: transparent;
+}
+
+
+.container-schedule{
+ padding: 50px;
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+}
+
+.container-schedule h2{
+    font-size: 32px;
+    color: #fff;
+}
+
+.container-schedule input{
+    padding: 8px 16px;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container-schedule ul{
+    width: 600px;
+    height: 100%;
+    padding: 30px;
+    background-color: #080B16;
+    border-radius: 18px;
+    color: #000;
+    list-style: none;
+    font-size: 16px;
+}
+
+.container-schedule li{
+    background-color: #FAFAFA;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.container-schedule li:hover{
+    background-color: #F0B35B;
+}
+
+@media  screen and (max-width:768px) {
+    .container-schedule ul{
+        width: 300px;
+    }
+    .container-schedule input{
+        padding: 8px 16px;
+        width: 250px;
+        height: 30px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+
+@media  screen and (max-width:440px) {
+    .container-schedule ul{
+        width: 200px;
+      
+    }
+
+}
